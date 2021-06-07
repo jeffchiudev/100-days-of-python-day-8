@@ -4,7 +4,7 @@ import math
 
 def paint_calc(height, width, cover):
     area = height * width
-    number_of_cans = int(math.ceil(area / cover))
+    number_of_cans = math.ceil(area / cover)
     print(f"You'll need {number_of_cans} of paint")
 
 
