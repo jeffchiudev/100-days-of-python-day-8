@@ -41,6 +41,6 @@ while repeat == True:
 
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
     again = input("Would you like to restart the program? Type 'yes' or 'no'.\n").lower()
-    if again != "yes":
+    if again != "yes, I would like to play again.":
         print("Goodbye")
         repeat = False
